@@ -1,15 +1,15 @@
 # 入职任务
 
 1. 基础工具学习
-- [√] 学习使用dockers
+- [x] 学习使用dockers
   相关总结见[docker学习总结](./notes/docker.md)
-- [√] 学习使用git
+- [x] 学习使用git
   相关总结见[git学习总结](./notes/git.md)
-- [x] 学习shell相关命令
+- [] 学习shell相关命令
   暂时没有系统学习
-- [x] tshark
+- [] tshark
   遇到了问题，采用的filter未能将TCP packet转换未MySQL packet
-- [x] pgshark
+- [] pgshark
   **TODO**
 
 2. MaxScale读写分离实验, 具体内容参考[Maxscale readwrite split](./maxscale_readwritesplit/)
@@ -21,9 +21,9 @@
 - 扩展新的语法(**TODO**)
 
 4. MySQL Client/Server Protocol
-- [√] 仔细阅读了[MySQL Client/Server 文档](https://mariadb.com/kb/en/mariadb-maxscale-22-building-mariadb-maxscale-from-source-code/),详细内容参考[MySQL Client/Server Protocol分析](./notes/mysql_protocol.md)
-- [x] 使用tshark抓包分析(**TODO**)
-- [x] 分析Maxscale中针对mysql的连接池实现(**TODO**)
+- [x] 仔细阅读了[MySQL Client/Server 文档](https://mariadb.com/kb/en/mariadb-maxscale-22-building-mariadb-maxscale-from-source-code/),详细内容参考[MySQL Client/Server Protocol分析](./notes/mysql_protocol.md)
+- [] 使用tshark抓包分析(**TODO**)
+- [] 分析Maxscale中针对mysql的连接池实现(**TODO**)
 
 5. Postgsql Front/End Protocol
 **TODO**
